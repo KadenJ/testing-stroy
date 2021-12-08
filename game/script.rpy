@@ -7,6 +7,7 @@
 define e = Character("Eileen")
 
 define po = Character("Professor Oak")
+define toto = Character("Totodile")
 
 
 # The game starts here.
@@ -34,8 +35,10 @@ label start:
     show po happy at right:
         yalign 1
 
-    show pokemon
+    show totodile
     po "in this world, people and pokemon live side by side as friends"
+
+    toto "toto"
 
     # This ends the game.
 
